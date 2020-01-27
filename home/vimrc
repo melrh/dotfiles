@@ -1,0 +1,10 @@
+syntax on
+
+set number
+
+set undofile
+set undodir=$HOME/.vim/undo
+
+set directory=$HOME/.vim/swap
+
+set backspace=indent,eol,start

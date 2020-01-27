@@ -1,0 +1,18 @@
+[user]
+	name = Melissa Hogg
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+[diff]
+    tool = vimdiff
+[mergetool]
+	prompt = false
+	keepBackup = false
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[includeIf "gitdir:~/Projects/Personal/"]
+	path = .gitconfig-personal
+[includeIf "gitdir:~/Projects/Work/"]
+	path = .gitconfig-work
+
