@@ -48,5 +48,3 @@ alias copy-ssh-key="cat $HOME/.ssh/id_rsa.pub | pbcopy"
 alias update-brew-bundle="brew bundle dump --global --force"
 alias update-brew="brew bundle cleanup --force --global && brew update && brew upgrade && brew cleanup"
 alias update-all="upgrade_oh_my_zsh && update-brew"
-alias cr-switchrole=". cr-switchrole"
-
