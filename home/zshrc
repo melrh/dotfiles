@@ -1,4 +1,4 @@
-export PATH=$HOME/Projects/Work/cr-ops-scripts:$PATH
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 export TERM=xterm-256color
 export EDITOR=vim
